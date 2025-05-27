@@ -173,6 +173,45 @@ footer {
     border-color: #25443b;
 }
 
+.hero-capa {
+    width: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 20px 0;
+}
+
+.imagem-principal {
+    position: relative;
+    display: inline-block;
+    border: 8px solid #3b6b57;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 12px #bbb4;
+}
+
+.img-capa {
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    border-radius: 4px;
+}
+
+.epao {
+    position: absolute;
+    right: 18px;
+    bottom: 16px;
+    background: #fff;
+    color: #375c47;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 3px 12px;
+    border-radius: 4px;
+    box-shadow: 0 1px 6px #bbb7;
+    letter-spacing: 2px;
+}
+
 /* ----------- RESPONSIVIDADE GERAL ----------- */
 @media (max-width: 900px) {
     .hero-mosaico-conteudo {
