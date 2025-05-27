@@ -101,7 +101,7 @@ footer {
 
 .logo-renata {
     width: 70px;
-    max-width: 20vw;
+    height: auto;
     margin-bottom: 10px;
     display: block;
     margin-left: auto;
