@@ -90,3 +90,35 @@ footer {
     transform: scale(1.2);
     color: #ddd;
 }
+
+/* TOPO COM LOGO E NOME DA CLÍNICA */
+.topo-renata {
+    background: #e9f0ec;
+    text-align: center;
+    padding: 32px 0 16px 0;
+    border-bottom: 3px solid #5e7f6b;
+}
+
+.logo-renata {
+    width: 120px;
+    max-width: 35vw;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nome-clinica {
+    font-family: 'Georgia', serif;
+    color: #25443b;
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.nome-clinica span {
+    font-size: 1.3rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #4a6e60;
+}
