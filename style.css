@@ -174,17 +174,17 @@ footer {
 
 .logo-sobre-mosaico {
     position: absolute;
-    top: 14px;
-    right: 22px;
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    z-index: 2;
+    top: 0;
+    right: 0;
+    z-index: 10;
 }
 
 .logo-flutuante {
-    width: 90px;
+    width: 120px;
+    /* Ajuste conforme o tamanho do original */
     height: auto;
+    display: block;
+    /* Remove fundo branco do logo, se houver (use PNG transparente) */
 }
 
 .nome-logo-mosaico h1 {
