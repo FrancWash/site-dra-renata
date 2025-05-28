@@ -6,41 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dra Renata Fialho - Odontologia</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a2c5f6b83f.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&display=swap"
         rel="stylesheet">
 </head>
 
 <body>
-    <header class="topo-renata">
-        <img src="assets/images/logo-renata-fialho.png" alt="Logo Renata Fialho Odontologia" class="logo-renata">
-        <h1 class="nome-clinica">RENATA FIALHO <br><span>ODONTOLOGIA LTDA</span></h1>
-        <nav>
-            <ul>
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#parceria">Parcerias</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
 
     <!-- Capa com mosaico -->
     <section class="hero-mosaico">
         <img src="assets/images/mosaico-topo.jpg" alt="Fachada e sorrisos" class="mosaico-img">
+
+        <div class="logo-sobre-mosaico">
+            <img src="assets/images/logo-renata-fialho.png" alt="Logo Renata Fialho" class="logo-flutuante">
+            <div class="nome-logo-mosaico">
+                <h1>RENATA FIALHO</h1>
+                <p>ODONTOLOGIA LTDA</p>
+            </div>
+        </div>
+
         <span class="epao">EPAO 034224</span>
     </section>
 
+    <nav>
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#parceria">Parcerias</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
     <main>
         <!-- Mensagem de boas-vindas -->
-        <section id="inicio" class="section-canva">
-            <h2 class="bemvindo">Seja Bem vindo!</h2>
-            <p>
-                Cuidando do sorriso com atenção, carinho e uma visão multidisciplinar. Desde 2002, no JD Marajoara, em
-                um ambiente agradável, respeitoso e familiar, realizamos todo tipo de tratamento odontológico, com o
-                objetivo de melhorar o sorriso na sua função e estética, influenciando na autoestima e na qualidade de
-                vida. Oferecendo atendimento humanizado para crianças e adultos, com foco na saúde integral do paciente.
-            </p>
+        <section id="inicio" class="boas-vindas-section">
+            <div class="boas-vindas-content">
+                <h2>Seja Bem vindo!</h2>
+                <p>
+                    Cuidando do sorriso com atenção, carinho e uma visão multidisciplinar. Desde 2002, no JD Marajoara,
+                    em um ambiente agradável, respeitoso e familiar, realizamos todo tipo de tratamento odontológico,
+                    com o objetivo de melhorar o sorriso na sua função e estética, influenciando na autoestima e na
+                    qualidade de vida. Oferecendo atendimento humanizado para crianças e adultos, com foco na saúde
+                    integral do paciente.
+                </p>
+            </div>
+            <div class="boas-vindas-icon">
+                <img src="assets/images/contato.jpg" alt="Ícone de localização">
+            </div>
         </section>
 
         <!-- Sobre a Dra Renata -->
@@ -106,12 +119,43 @@
         </section>
 
         <!-- Contato -->
-        <section id="contato" class="section-canva">
-            <h2>Contato</h2>
-            <p>WhatsApp: <a href="https://api.whatsapp.com/message/K5B2Z6NN3H44A1?autoload=1&app_absent=0">(11) 9
-                    7177-0752</a></p>
-            <p>Email: <a href="mailto:drarenatasfialho@gmail.com">drarenatasfialho@gmail.com</a></p>
+        <section id="contato" class="contato-canva">
+            <div class="contato-esquerda">
+                <h3>FONE</h3>
+                <p>(11) 56860896</p>
+
+                <a href="https://api.whatsapp.com/send?phone=5511971770752" class="whatsapp-botao" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>(11) 9 7177-0752</span>
+                </a>
+
+                <h3>EMAIL</h3>
+                <p><a href="mailto:drarenatasfialho@gmail.com">drarenatasfialho@gmail.com</a></p>
+
+                <h3>SOCIAL</h3>
+                <div class="redes-sociais">
+                    <a href="https://facebook.com/drarenatasfialho" target="_blank"><i
+                            class="fab fa-facebook fa-2x"></i></a>
+                    <a href="https://instagram.com/drarenatasfialho" target="_blank"><i
+                            class="fab fa-instagram fa-2x"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=5511971770752" target="_blank"><i
+                            class="fab fa-whatsapp fa-2x"></i></a>
+                </div>
+            </div>
+
+            <div class="contato-direita">
+                <div class="form-orientacao">
+                    <p>Preencha o formulário se preferir,<br> assim que possível entramos em contato</p>
+                    <a href="https://forms.gle/SEU-FORMULARIO-AQUI" class="botao-cadastro" target="_blank">Cadastro</a>
+                </div>
+
+                <div class="taboao-box">
+                    Atendimento em <strong>TABOÃO DA SERRA</strong>,<br>
+                    informações pelo mesmo número de WhatsApp
+                </div>
+            </div>
         </section>
+
     </main>
 
     <footer>

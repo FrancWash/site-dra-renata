@@ -59,28 +59,29 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px 10px;
-    position: relative;
     background-color: #fff;
+    padding: 30px 0;
+    position: relative;
 }
 
 .mosaico-img {
     width: 100%;
     max-width: 900px;
     border: 8px solid #3b6b57;
-    border-radius: 8px;
-    box-shadow: 0 2px 12px #bbb4;
+    border-radius: 0;
+    box-shadow: none;
+    display: block;
 }
 
 .epao {
     position: absolute;
-    right: 40px;
-    bottom: 30px;
+    bottom: 40px;
+    right: 55px;
     background: #fff;
     color: #375c47;
     font-size: 1rem;
     font-weight: bold;
-    padding: 4px 12px;
+    padding: 3px 12px;
     border-radius: 4px;
     box-shadow: 0 1px 6px #bbb7;
     letter-spacing: 2px;
@@ -170,6 +171,207 @@ footer {
     padding: 20px;
     font-size: 0.95rem;
     margin-top: 40px;
+}
+
+.logo-sobre-mosaico {
+    position: absolute;
+    top: 25px;
+    right: 45px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-flutuante {
+    width: 80px;
+    height: auto;
+}
+
+.nome-logo-mosaico h1 {
+    font-size: 1.4rem;
+    color: #25443b;
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+.nome-logo-mosaico p {
+    font-size: 1rem;
+    color: #4a6e60;
+    letter-spacing: 2px;
+    margin-top: 2px;
+}
+
+.boas-vindas-section {
+    background-color: #f5e4e1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.boas-vindas-content {
+    flex: 1 1 600px;
+    color: #2c3e36;
+}
+
+.boas-vindas-content h2 {
+    color: #c85c73;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.boas-vindas-content p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+.boas-vindas-icon img {
+    max-width: 120px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    .boas-vindas-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .boas-vindas-content h2 {
+        font-size: 1.7rem;
+    }
+
+    .boas-vindas-icon {
+        margin-top: 20px;
+    }
+}
+
+.contato-canva {
+    background-color: #1e3d32;
+    color: #f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 60px 40px;
+}
+
+.contato-esquerda {
+    flex: 1;
+    min-width: 280px;
+}
+
+.contato-esquerda h3 {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    color: #f9dada;
+}
+
+.contato-esquerda p,
+.contato-esquerda a {
+    color: #f5f5f5;
+    font-size: 1.05rem;
+    text-decoration: none;
+    margin: 8px 0;
+    display: block;
+}
+
+.whatsapp-botao {
+    background-color: #fff;
+    color: #1e3d32;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 14px;
+    border-radius: 30px;
+    font-weight: bold;
+    width: fit-content;
+    margin: 10px 0;
+    transition: background 0.3s;
+}
+
+.whatsapp-botao:hover {
+    background-color: #d3f1e1;
+}
+
+.whatsapp-botao i {
+    font-size: 24px;
+    color: #25D366;
+}
+
+.redes-sociais a {
+    color: #fff;
+    margin-right: 16px;
+    transition: transform 0.2s ease;
+}
+
+.redes-sociais a:hover {
+    transform: scale(1.2);
+    color: #ccc;
+}
+
+.contato-direita {
+    flex: 1;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form-orientacao {
+    background-color: #dce5df;
+    border-radius: 16px;
+    padding: 24px;
+    text-align: center;
+    color: #222;
+    font-size: 1rem;
+}
+
+.botao-cadastro {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 22px;
+    background-color: #4b6d5a;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.botao-cadastro:hover {
+    background-color: #3c594a;
+}
+
+.taboao-box {
+    background-color: #f4632a;
+    padding: 16px;
+    border-radius: 12px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .contato-canva {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+
+    .whatsapp-botao {
+        font-size: 1rem;
+    }
+
+    .botao-cadastro {
+        font-size: 1rem;
+        padding: 8px 20px;
+    }
 }
 
 @media (max-width: 768px) {
