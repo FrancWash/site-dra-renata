@@ -62,30 +62,28 @@ nav ul li a {
     padding: 0;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .mosaico-img {
     width: 100%;
-    max-width: 1000px;
-    border: none;
-    border-radius: 0;
-    box-shadow: none;
-    margin-top: 40px;
+    max-width: none;
+    display: block;
 }
 
 .epao {
     position: absolute;
-    bottom: 40px;
-    right: 55px;
+    bottom: 18px;
+    right: 40px;
     background: #fff;
     color: #375c47;
     font-size: 1rem;
     font-weight: bold;
-    padding: 3px 12px;
+    padding: 6px 14px;
     border-radius: 4px;
     box-shadow: 0 1px 6px #bbb7;
     letter-spacing: 2px;
+    z-index: 3;
 }
 
 .section-canva {
@@ -176,8 +174,8 @@ footer {
 
 .logo-sobre-mosaico {
     position: absolute;
-    top: 20px;
-    right: 40px;
+    top: 14px;
+    right: 22px;
     display: flex;
     align-items: center;
     gap: 14px;
