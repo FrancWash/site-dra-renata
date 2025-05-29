@@ -263,6 +263,47 @@ footer {
     text-decoration: none;
 }
 
+.quem-sou-eu-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 40px 0;
+    background: #eac4b4;
+    /* cor do fundo igual Canva */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.quem-sou-eu-img img {
+    max-width: 330px;
+    border: 12px solid #386152;
+    background: #fff;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+}
+
+.quem-sou-eu-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    flex: 1;
+}
+
+.quem-sou-eu-card img {
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 2px 8px rgba(44, 62, 54, 0.10);
+    border-radius: 4px;
+}
+
+.quem-sou-eu-texto {
+    font-size: 1.25rem;
+    color: #2c3e36;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+
 
 @media (max-width: 768px) {
     .boas-vindas-section {
