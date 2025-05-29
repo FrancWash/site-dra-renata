@@ -203,18 +203,20 @@ footer {
 }
 
 .bemvindo-section {
+    background-color: #f5e4e1;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    background: #f2e2dd;
-    padding: 40px 0;
-    gap: 60px;
+    padding: 60px 40px;
+    gap: 80px;
+    flex-wrap: wrap;
 }
 
 .bemvindo-content {
-    max-width: 780px;
-    text-align: center;
-    margin: 0 auto;
+    flex: 1 1 600px;
+    color: #2c3e36;
+    max-width: 900px;
+    margin: auto;
 }
 
 .bemvindo-title {
@@ -238,21 +240,23 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    /* Garante centralização no container */
 }
 
 .icon-circulo {
-    background: #395845;
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: #375C47;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    box-shadow: 0 2px 10px #0001;
 }
 
 .icon-circulo i {
-    color: #fff6ed;
-    font-size: 56px;
+    color: #fff;
+    font-size: 54px;
 }
 
 @media (max-width: 768px) {
