@@ -202,84 +202,57 @@ footer {
     letter-spacing: 1px;
 }
 
-.boas-vindas-section {
-    background-color: #f5e4e1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 60px 40px;
-    gap: 40px;
-    flex-wrap: wrap;
-}
-
-.boas-vindas-content {
-    flex: 1 1 600px;
-    color: #2c3e36;
-}
-
-.boas-vindas-content h2 {
-    color: #c85c73;
-    font-size: 2.2rem;
-    margin-bottom: 20px;
-}
-
-.boas-vindas-content p {
-    font-size: 1.1rem;
-    line-height: 1.7;
-}
-
-.boas-vindas-icon img {
-    max-width: 120px;
-    height: auto;
-    display: block;
-    margin: auto;
-}
-
 .bemvindo-section {
     display: flex;
-    align-items: center;
     justify-content: center;
-    background: #f5e5e0;
-    padding: 48px 0;
-    gap: 48px;
+    align-items: center;
+    background: #f2e2dd;
+    padding: 40px 0;
+    gap: 60px;
 }
 
 .bemvindo-content {
-    max-width: 700px;
+    max-width: 780px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .bemvindo-title {
-    color: #C85C73;
-    font-size: 2.5rem;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 20px;
+    color: #c85c73;
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin-bottom: 16px;
 }
 
 .bemvindo-text {
-    color: #31523e;
-    font-size: 1.28rem;
+    color: #29543c;
+    font-size: 1.45rem;
     font-family: 'Cormorant Garamond', serif;
-    text-align: left;
-    line-height: 1.5;
     font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    padding: 0 14px;
 }
 
 .bemvindo-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 110px;
-    height: 110px;
-    background: #31523e;
-    border-radius: 50%;
-    margin: 0 20px;
-    flex-shrink: 0;
 }
 
-.bemvindo-icon i {
-    color: #f5e5e0;
-    font-size: 54px;
+.icon-circulo {
+    background: #395845;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-circulo i {
+    color: #fff6ed;
+    font-size: 56px;
 }
 
 @media (max-width: 768px) {
