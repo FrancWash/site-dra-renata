@@ -503,6 +503,18 @@ html {
         text-align: center;
     }
 
+    .sobre-container img {
+        width: 80vw;
+        max-width: 300px;
+        margin-bottom: 16px;
+    }
+
+    .sobre-container .sobre-texto {
+        width: 100%;
+        padding: 0 12px;
+        text-align: center;
+    }
+
     .servico-card img {
         width: 80px;
     }
@@ -583,6 +595,7 @@ html {
 
     .sobre-container {
         flex-direction: column;
+        align-items: center;
         text-align: center;
     }
 
