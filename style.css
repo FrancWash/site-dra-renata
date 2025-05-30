@@ -306,24 +306,6 @@ footer {
     font-family: 'Cormorant Garamond', serif;
 }
 
-
-
-@media (max-width: 768px) {
-    .boas-vindas-section {
-        flex-direction: column;
-        text-align: center;
-        padding: 40px 20px;
-    }
-
-    .boas-vindas-content h2 {
-        font-size: 1.7rem;
-    }
-
-    .boas-vindas-icon {
-        margin-top: 20px;
-    }
-}
-
 .servicos-flex {
     display: flex;
     justify-content: center;
@@ -364,6 +346,62 @@ footer {
     margin-bottom: 6px;
     color: #1e3d32;
     font-family: 'Cormorant Garamond', serif;
+}
+
+.section-servicos {
+    margin-top: 60px;
+    /* espaçamento do topo, ajuste conforme precisar */
+    margin-bottom: 40px;
+}
+
+.faixa-servicos {
+    width: 100vw;
+    background: #5e7f6b;
+    padding: 22px 0 18px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+.titulo-servicos {
+    color: #fff;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.6rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    /* sombra de leve para dar destaque igual Canva */
+    text-shadow: 0 2px 4px #0002;
+}
+
+.servicos-conteudo {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 40px 0 0 0;
+}
+
+
+@media (max-width: 768px) {
+    .boas-vindas-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .boas-vindas-content h2 {
+        font-size: 1.7rem;
+    }
+
+    .boas-vindas-icon {
+        margin-top: 20px;
+    }
 }
 
 @media (max-width: 768px) {
