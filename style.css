@@ -511,3 +511,119 @@ html {
         font-size: 1.6rem;
     }
 }
+
+@media (max-width: 600px) {
+    .diferencial-conteudo {
+        padding: 0 4vw;
+        gap: 20px;
+    }
+
+    .diferencial-item {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        text-align: center;
+    }
+
+    .diferencial-item img {
+        width: 48px;
+        margin-bottom: 4px;
+    }
+
+    .diferencial-item p {
+        font-size: 1rem;
+        max-width: 98vw;
+    }
+
+    .faixa-diferencial {
+        font-size: 1.18rem;
+        padding: 11px 0 7px 0;
+    }
+
+    .titulo-diferencial {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .diferencial-conteudo {
+        gap: 32px;
+    }
+
+    .diferencial-item {
+        gap: 16px;
+    }
+
+    .faixa-diferencial {
+        font-size: 1.5rem;
+        padding: 18px 0 10px 0;
+    }
+
+    .diferencial-item img {
+        width: 60px;
+    }
+
+    .diferencial-item p {
+        font-size: 1.05rem;
+    }
+
+    .boas-vindas-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .boas-vindas-content h2 {
+        font-size: 1.7rem;
+    }
+
+    .boas-vindas-icon {
+        margin-top: 20px;
+    }
+
+    .sobre-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .servico-card img {
+        width: 80px;
+    }
+
+    .bemvindo {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .diferencial-conteudo {
+        padding: 0 4vw;
+        gap: 20px;
+    }
+
+    .diferencial-item {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        text-align: center;
+    }
+
+    .diferencial-item img {
+        width: 48px;
+        margin-bottom: 4px;
+    }
+
+    .diferencial-item p {
+        font-size: 1rem;
+        max-width: 98vw;
+    }
+
+    .faixa-diferencial {
+        font-size: 1.18rem;
+        padding: 11px 0 7px 0;
+    }
+
+    .titulo-diferencial {
+        font-size: 1.3rem;
+    }
+}
