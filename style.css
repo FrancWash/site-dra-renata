@@ -640,3 +640,41 @@ html {
         font-size: 1.3rem;
     }
 }
+
+@media (max-width: 768px) {
+    .quem-sou-eu-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 22px;
+        padding: 30px 10px;
+        text-align: center;
+    }
+
+    .quem-sou-eu-img img {
+        max-width: 80vw;
+        width: 220px;
+        margin: 0 auto 12px auto;
+        display: block;
+        border-width: 7px;
+    }
+
+    .quem-sou-eu-card {
+        align-items: center;
+        gap: 14px;
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .quem-sou-eu-card img {
+        width: 170px;
+        max-width: 60vw;
+        margin-bottom: 8px;
+    }
+
+    .quem-sou-eu-texto {
+        font-size: 1.08rem;
+        line-height: 1.45;
+        padding: 0 4vw;
+        text-align: center;
+    }
+}
