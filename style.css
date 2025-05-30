@@ -324,6 +324,48 @@ footer {
     }
 }
 
+.servicos-flex {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 36px;
+}
+
+.servicos-imagens,
+.servicos-descricoes {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.servico-img-item img {
+    width: 170px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+    background: #fff;
+}
+
+.servicos-descricoes {
+    max-width: 620px;
+}
+
+.servico-desc-item h3,
+.servico-desc-item h4 {
+    color: #44624a;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    margin-bottom: 4px;
+    font-weight: bold;
+    text-transform: none;
+}
+
+.servico-desc-item p {
+    font-size: 1.16rem;
+    margin-bottom: 6px;
+    color: #1e3d32;
+    font-family: 'Cormorant Garamond', serif;
+}
+
 @media (max-width: 768px) {
     .sobre-container {
         flex-direction: column;
