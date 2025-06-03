@@ -10,6 +10,7 @@ body {
     background-color: #fdf1eb;
     color: #1e3d32;
     line-height: 1.6;
+    padding-top: 64px;
 }
 
 .topo-renata {
@@ -637,6 +638,10 @@ html {
         flex-direction: column;
         padding: 10px 8px;
         gap: 8px;
+    }
+
+    body {
+        padding-top: 56px;
     }
 }
 
