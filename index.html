@@ -13,6 +13,23 @@
 
 <body>
 
+    <header class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <a href="#"><img src="assets/images/logo-renata.png" alt="Logo" style="height:38px;"></a>
+            </div>
+            <nav class="navbar-links" id="navbarLinks">
+                <a href="#inicio">Início</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#contato">Contato</a>
+            </nav>
+            <div class="navbar-hamburger" id="hamburgerBtn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
     <!-- Capa com mosaico -->
     <section class="hero-mosaico">
         <img src="assets/images/mosaico-topo.png" alt="Fachada e sorrisos" class="mosaico-img">
@@ -211,6 +228,21 @@
     <footer>
         <p>&copy; 2025 Dra Renata S. Fialho | Todos os direitos reservados.</p>
     </footer>
+
+    <script>
+        const hamburgerBtn = document.getElementById('hamburgerBtn');
+        const navbarLinks = document.getElementById('navbarLinks');
+        hamburgerBtn.onclick = function () {
+            navbarLinks.classList.toggle('show');
+        };
+        // Opcional: fechar ao clicar fora do menu
+        document.addEventListener('click', function (event) {
+            if (!hamburgerBtn.contains(event.target) && !navbarLinks.contains(event.target)) {
+                navbarLinks.classList.remove('show');
+            }
+        });
+    </script>
+
 </body>
 
 </html>
