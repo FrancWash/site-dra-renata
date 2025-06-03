@@ -457,7 +457,115 @@ html {
     max-width: 700px;
 }
 
+.contato-section {
+    background: #f5e4e1;
+    padding: 48px 0 32px 0;
+    text-align: center;
+}
+
+.contato-container {
+    max-width: 560px;
+    margin: 0 auto;
+}
+
+.contato-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contato-whatsapp {
+    background: #25d366;
+    color: #fff;
+    padding: 10px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.15rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: bold;
+    box-shadow: 0 1px 8px #0002;
+    transition: background 0.2s;
+}
+
+.contato-whatsapp i {
+    font-size: 1.3em;
+}
+
+.contato-whatsapp:hover {
+    background: #128c7e;
+}
+
+.contato-tel {
+    background: #fff;
+    color: #29543c;
+    padding: 10px 18px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px #0001;
+    font-size: 1.08rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.contato-tel i {
+    color: #5e7f6b;
+    font-size: 1.2em;
+}
+
+.contato-endereco {
+    background: #fff;
+    color: #29543c;
+    padding: 12px 18px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px #0001;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contato-endereco i {
+    color: #648373;
+    font-size: 1.3em;
+}
+
+.btn-maps {
+    background: #648373;
+    color: #fff;
+    padding: 6px 16px;
+    border-radius: 6px;
+    margin-left: 8px;
+    text-decoration: none;
+    font-size: 0.98rem;
+    transition: background 0.2s;
+}
+
+.btn-maps:hover {
+    background: #44624a;
+}
+
 /* Responsivo */
+@media (max-width: 600px) {
+    .contato-info {
+        gap: 14px;
+        font-size: 0.99rem;
+    }
+
+    .contato-endereco,
+    .contato-tel {
+        flex-direction: column;
+        padding: 10px 8px;
+        gap: 8px;
+    }
+}
+
 @media (max-width: 768px) {
     .diferencial-conteudo {
         gap: 32px;
