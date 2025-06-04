@@ -562,22 +562,28 @@ html {
     left: 0;
     z-index: 100;
     box-shadow: 0 2px 10px #0001;
+    height: 80px;
+    min-height: 64px;
+    display: flex;
+    align-items: center;
 }
 
 .navbar-container {
+    height: 100%;
     max-width: 1150px;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 8px 18px;
+    padding: 0 18px;
 }
 
 .navbar-logo img {
     height: 60px;
     width: auto;
-    max-width: 180px;
-    max-height: 64px;
+    max-width: 90%;
+    max-height: 80px;
+    display: block;
 }
 
 .navbar-links {
@@ -627,24 +633,6 @@ html {
 
     .navbar-hamburger {
         display: block;
-    }
-}
-
-@media (max-width: 600px) {
-    .contato-info {
-        gap: 14px;
-        font-size: 0.99rem;
-    }
-
-    .contato-endereco,
-    .contato-tel {
-        flex-direction: column;
-        padding: 10px 8px;
-        gap: 8px;
-    }
-
-    body {
-        padding-top: 2px;
     }
 }
 
@@ -715,6 +703,22 @@ html {
 }
 
 @media (max-width: 600px) {
+    .contato-info {
+        gap: 14px;
+        font-size: 0.99rem;
+    }
+
+    .contato-endereco,
+    .contato-tel {
+        flex-direction: column;
+        padding: 10px 8px;
+        gap: 8px;
+    }
+
+    body {
+        padding-top: 2px;
+    }
+
     .diferencial-conteudo {
         padding: 0 4vw;
         gap: 20px;
@@ -747,7 +751,7 @@ html {
     }
 
     .navbar-container {
-        padding: 4px 18px;
+        padding: 2px 14px;
     }
 
     .navbar-logo img {
@@ -803,39 +807,6 @@ html {
 
     .bemvindo {
         font-size: 1.6rem;
-    }
-}
-
-@media (max-width: 600px) {
-    .diferencial-conteudo {
-        padding: 0 4vw;
-        gap: 20px;
-    }
-
-    .diferencial-item {
-        flex-direction: column;
-        align-items: center;
-        gap: 8px;
-        text-align: center;
-    }
-
-    .diferencial-item img {
-        width: 48px;
-        margin-bottom: 4px;
-    }
-
-    .diferencial-item p {
-        font-size: 1rem;
-        max-width: 98vw;
-    }
-
-    .faixa-diferencial {
-        font-size: 1.18rem;
-        padding: 11px 0 7px 0;
-    }
-
-    .titulo-diferencial {
-        font-size: 1.3rem;
     }
 }
 
