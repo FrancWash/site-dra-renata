@@ -576,6 +576,8 @@ html {
 .navbar-logo img {
     height: 150px;
     width: auto;
+    max-width: none;
+    max-height: none;
 }
 
 .navbar-links {
@@ -745,7 +747,7 @@ html {
     }
 
     .navbar-container {
-        padding: 5px 8px;
+        padding: 20px 18px;
     }
 
     .navbar-logo img {
