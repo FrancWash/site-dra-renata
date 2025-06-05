@@ -796,6 +796,12 @@ html {
         display: flex;
         width: 100%;
     }
+
+    .section-canva {
+        min-height: 45vh;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
 }
 
 @media (max-width: 768px) {
