@@ -802,6 +802,26 @@ html {
         padding-top: 24px;
         padding-bottom: 24px;
     }
+
+    .faixa-servicos h2,
+    .titulo-servicos {
+        font-size: 1.4rem;
+        padding: 0 8px;
+        word-break: break-word;
+        text-align: center;
+    }
+
+    .faixa-servicos {
+        padding: 15px 0 12px 0;
+    }
+
+    .servico-info h3,
+    .servico-info h4 {
+        font-size: 1.15rem;
+        line-height: 1.25;
+        text-align: center;
+        margin-bottom: 12px;
+    }
 }
 
 @media (max-width: 768px) {
