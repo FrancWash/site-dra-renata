@@ -579,10 +579,10 @@ html {
 }
 
 .navbar-logo img {
-    height: 90px;
+    height: 110px;
     width: auto;
-    max-width: 220px;
-    max-height: 100px;
+    max-width: 250px;
+    max-height: 120px;
     display: block;
     transition: height 0.3s;
 }
@@ -716,8 +716,8 @@ html {
     }
 
     .navbar-logo img {
-        height: 60px;
-        max-width: 140px;
+        height: 90px;
+        max-width: 170px;
     }
 
     .contato-info {
