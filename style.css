@@ -664,8 +664,6 @@ html {
 
     .navbar-links.show {
         display: flex;
-        opacity: 1;
-        visibility: visible;
     }
 
     .navbar-hamburger {
