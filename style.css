@@ -234,7 +234,8 @@ footer {
 }
 
 .bemvindo-text {
-    color: #29543c;
+    color: #25443b;
+    /* Mais escuro */
     font-size: 1.45rem;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 400;
@@ -408,6 +409,11 @@ html {
 .section-diferencial {
     padding: 0;
     background: #fdf1eb;
+}
+
+.section-servicos,
+.section-diferencial {
+    padding: 60px 20px;
 }
 
 .faixa-diferencial {
@@ -590,6 +596,9 @@ html {
 .navbar-links {
     display: flex;
     gap: 28px;
+    transition: all 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
 }
 
 .navbar-links a {
@@ -636,6 +645,10 @@ html {
     transform: scale(1.08);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Responsivo */
 
 @media (max-width: 850px) {
@@ -654,6 +667,8 @@ html {
 
     .navbar-links.show {
         display: flex;
+        opacity: 1;
+        visibility: visible;
     }
 
     .navbar-hamburger {
@@ -788,7 +803,16 @@ html {
     }
 
     .logo-sobre-mosaico {
-        display: none !important;
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 50%;
+        transform: translateX(50%);
+        width: 100px;
+    }
+
+    .logo-flutuante {
+        width: 100%;
     }
 
     .bemvindo-icon {
