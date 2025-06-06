@@ -596,9 +596,6 @@ html {
 .navbar-links {
     display: flex;
     gap: 28px;
-    transition: all 0.3s ease;
-    opacity: 0;
-    visibility: hidden;
 }
 
 .navbar-links a {
