@@ -894,6 +894,21 @@ html {
         text-align: center;
         margin-bottom: 12px;
     }
+
+    .quem-sou-eu-card img {
+        /* Aumenta o tamanho do card no mobile */
+        width: 98vw !important;
+        /* Quase toda a largura da tela */
+        max-width: 370px !important;
+        /* Limite razoável pro mobile, pode aumentar mais se quiser */
+        margin-bottom: 14px;
+    }
+
+    .quem-sou-eu-card {
+        max-width: 100vw !important;
+        padding: 0 6px;
+        align-items: center;
+    }
 }
 
 @media (max-width: 768px) {
