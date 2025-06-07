@@ -699,6 +699,16 @@ html {
     background: #44624a;
 }
 
+.quem-sou-eu-titulo {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 6px #0008;
+}
+
 /* Responsivo */
 
 @media (max-width: 850px) {
@@ -927,6 +937,11 @@ html {
         min-height: 30vh;
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+
+    .quem-sou-eu-titulo {
+        font-size: 1.3rem;
+        margin-bottom: 6px;
     }
 }
 
