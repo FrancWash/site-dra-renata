@@ -212,18 +212,18 @@ footer {
 .bemvindo-section {
     background-color: #f5e4e1;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     padding: 60px 40px;
-    gap: 28px;
+    gap: 12px;
     flex-wrap: wrap;
 }
 
 .bemvindo-content {
-    flex: 0 1 820px;
-    max-width: 820px;
+    flex: 1 1 600px;
     color: #2c3e36;
-    margin: 0;
+    max-width: 900px;
+    margin: auto;
 }
 
 .bemvindo-title {
